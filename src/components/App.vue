@@ -6,7 +6,7 @@
     <br />
     <br />
     <div class="col-md-12">
-      <Joke v-for="(joke, index) in $store.state.jokes" :joke="joke" :key="index" />
+      <Joke v-for="(joke, index) in $store.state.jokes" :joke="joke" :index="index" :key="index" />
     </div>
   </div>
 </template>
